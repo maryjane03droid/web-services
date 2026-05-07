@@ -219,5 +219,49 @@ class PriceScraperCurrencyConverter:
         # Summary of what we scraped
         print(f"\n[SUCCESS] Scraping complete! Collected {len(self.products_data)} books")
         return len(self.products_data) > 0
+    #currency conversion function
     
+    def convert_prices(self, target_currency="KES"):
+        """
+        Convert all scraped prices to target currency
+        
+        Parameters:
+            target_currency: 3-letter currency code (e.g., 'KES', 'USD', 'EUR')
+            
+        Returns:
+            True if successful, False if rates not available or currency invalid
+        """
+        # Check if we have exchange rates loaded
+        if not self.exchange_rates:
+            print("[ERROR] No exchange rates available. Please fetch rates first.")
+            return False
+        
+        # Verify target currency exists in our rates
+        if target_currency not in self.exchange_rates:
+            print(f"[ERROR] Currency '{target_currency}' not found in exchange rates")
+            print(f"  Available currencies: {list(self.exchange_rates.keys())[:20]}...")
+            return False
+        
+        # Get conversion rate (how much target currency equals 1 GBP)
+        conversion_rate = self.exchange_rates[target_currency]
+        
+        print(f"\n[INFO] Converting prices from GBP to {target_currency}")
+        print(f"  Exchange rate: 1 GBP = {conversion_rate:.4f} {target_currency}")
+        
+        # Loop through each product and add converted price
+        for product in self.products_data:
+            # Get original price (in GBP)
+            original_price = product['original_price_numeric']
+            
+            # Calculate converted price
+            converted_price = original_price * conversion_rate
+            
+            # Add conversion information to product dictionary
+            product['target_currency'] = target_currency
+            product['converted_price_numeric'] = round(converted_price, 2)
+            product['converted_price_text'] = f"{product['target_currency']} {converted_price:.2f}"
+            product['exchange_rate_used'] = conversion_rate
+        
+        print(f"[SUCCESS] Converted {len(self.products_data)} prices to {target_currency}")
+        return True
     
