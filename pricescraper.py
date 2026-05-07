@@ -87,4 +87,25 @@ class PriceScraperCurrencyConverter:
             # Handle invalid JSON response
             print(f"[ERROR] Failed to parse API response: {e}")
             return False
+    #data cleaning function
+    def clean_price(self, price_text):
+        """
+        Extract numeric price from text like '£51.77' or '€42.99'
+        
+        Parameters:
+            price_text: String containing price with currency symbol
+            
+        Returns:
+            Float value of the price (e.g., 51.77)
+        """
+        # Use regular expression to find digits and decimal points
+        # \d matches any digit, \. matches decimal point, + means one or more
+        price_match = re.search(r'[\d.]+', price_text)
+        
+        if price_match:
+            # Convert matched string to float and return
+            return float(price_match.group())
+        else:
+            # Return 0 if no price found (should not happen on this website)
+            return 0.0
     
