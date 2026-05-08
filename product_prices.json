@@ -1,0 +1,351 @@
+{
+  "scrape_info": {
+    "timestamp": "2026-05-08 20:08:51",
+    "conversion_timestamp": "Fri, 08 May 2026 00:02:31 +0000",
+    "total_products": 34,
+    "source_url": "http://books.toscrape.com",
+    "exchange_rate_source": "ExchangeRate-API (open.er-api.com)"
+  },
+  "products": [
+    {
+      "product_name": "A Light in the Attic",
+      "original_currency": "GBP",
+      "original_price_text": "£51.77",
+      "original_price_numeric": 51.77,
+      "target_currency": "KES",
+      "converted_price_numeric": 9103.04,
+      "converted_price_text": "KES 9103.04",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Tipping the Velvet",
+      "original_currency": "GBP",
+      "original_price_text": "£53.74",
+      "original_price_numeric": 53.74,
+      "target_currency": "KES",
+      "converted_price_numeric": 9449.44,
+      "converted_price_text": "KES 9449.44",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Soumission",
+      "original_currency": "GBP",
+      "original_price_text": "£50.10",
+      "original_price_numeric": 50.1,
+      "target_currency": "KES",
+      "converted_price_numeric": 8809.39,
+      "converted_price_text": "KES 8809.39",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Sharp Objects",
+      "original_currency": "GBP",
+      "original_price_text": "£47.82",
+      "original_price_numeric": 47.82,
+      "target_currency": "KES",
+      "converted_price_numeric": 8408.49,
+      "converted_price_text": "KES 8408.49",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Sapiens: A Brief History of Humankind",
+      "original_currency": "GBP",
+      "original_price_text": "£54.23",
+      "original_price_numeric": 54.23,
+      "target_currency": "KES",
+      "converted_price_numeric": 9535.6,
+      "converted_price_text": "KES 9535.60",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Requiem Red",
+      "original_currency": "GBP",
+      "original_price_text": "£22.65",
+      "original_price_numeric": 22.65,
+      "target_currency": "KES",
+      "converted_price_numeric": 3982.69,
+      "converted_price_text": "KES 3982.69",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Dirty Little Secrets of Getting Your Dream Job",
+      "original_currency": "GBP",
+      "original_price_text": "£33.34",
+      "original_price_numeric": 33.34,
+      "target_currency": "KES",
+      "converted_price_numeric": 5862.38,
+      "converted_price_text": "KES 5862.38",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+      "original_currency": "GBP",
+      "original_price_text": "£17.93",
+      "original_price_numeric": 17.93,
+      "target_currency": "KES",
+      "converted_price_numeric": 3152.74,
+      "converted_price_text": "KES 3152.74",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+      "original_currency": "GBP",
+      "original_price_text": "£22.60",
+      "original_price_numeric": 22.6,
+      "target_currency": "KES",
+      "converted_price_numeric": 3973.9,
+      "converted_price_text": "KES 3973.90",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Black Maria",
+      "original_currency": "GBP",
+      "original_price_text": "£52.15",
+      "original_price_numeric": 52.15,
+      "target_currency": "KES",
+      "converted_price_numeric": 9169.86,
+      "converted_price_text": "KES 9169.86",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Starving Hearts (Triangular Trade Trilogy, #1)",
+      "original_currency": "GBP",
+      "original_price_text": "£13.99",
+      "original_price_numeric": 13.99,
+      "target_currency": "KES",
+      "converted_price_numeric": 2459.95,
+      "converted_price_text": "KES 2459.95",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Shakespeare's Sonnets",
+      "original_currency": "GBP",
+      "original_price_text": "£20.66",
+      "original_price_numeric": 20.66,
+      "target_currency": "KES",
+      "converted_price_numeric": 3632.78,
+      "converted_price_text": "KES 3632.78",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Set Me Free",
+      "original_currency": "GBP",
+      "original_price_text": "£17.46",
+      "original_price_numeric": 17.46,
+      "target_currency": "KES",
+      "converted_price_numeric": 3070.1,
+      "converted_price_text": "KES 3070.10",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+      "original_currency": "GBP",
+      "original_price_text": "£52.29",
+      "original_price_numeric": 52.29,
+      "target_currency": "KES",
+      "converted_price_numeric": 9194.48,
+      "converted_price_text": "KES 9194.48",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Rip it Up and Start Again",
+      "original_currency": "GBP",
+      "original_price_text": "£35.02",
+      "original_price_numeric": 35.02,
+      "target_currency": "KES",
+      "converted_price_numeric": 6157.78,
+      "converted_price_text": "KES 6157.78",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+      "original_currency": "GBP",
+      "original_price_text": "£57.25",
+      "original_price_numeric": 57.25,
+      "target_currency": "KES",
+      "converted_price_numeric": 10066.62,
+      "converted_price_text": "KES 10066.62",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Olio",
+      "original_currency": "GBP",
+      "original_price_text": "£23.88",
+      "original_price_numeric": 23.88,
+      "target_currency": "KES",
+      "converted_price_numeric": 4198.97,
+      "converted_price_text": "KES 4198.97",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+      "original_currency": "GBP",
+      "original_price_text": "£37.59",
+      "original_price_numeric": 37.59,
+      "target_currency": "KES",
+      "converted_price_numeric": 6609.68,
+      "converted_price_text": "KES 6609.68",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Libertarianism for Beginners",
+      "original_currency": "GBP",
+      "original_price_text": "£51.33",
+      "original_price_numeric": 51.33,
+      "target_currency": "KES",
+      "converted_price_numeric": 9025.67,
+      "converted_price_text": "KES 9025.67",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "It's Only the Himalayas",
+      "original_currency": "GBP",
+      "original_price_text": "£45.17",
+      "original_price_numeric": 45.17,
+      "target_currency": "KES",
+      "converted_price_numeric": 7942.52,
+      "converted_price_text": "KES 7942.52",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "In Her Wake",
+      "original_currency": "GBP",
+      "original_price_text": "£12.84",
+      "original_price_numeric": 12.84,
+      "target_currency": "KES",
+      "converted_price_numeric": 2257.74,
+      "converted_price_text": "KES 2257.74",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "How Music Works",
+      "original_currency": "GBP",
+      "original_price_text": "£37.32",
+      "original_price_numeric": 37.32,
+      "target_currency": "KES",
+      "converted_price_numeric": 6562.21,
+      "converted_price_text": "KES 6562.21",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+      "original_currency": "GBP",
+      "original_price_text": "£30.52",
+      "original_price_numeric": 30.52,
+      "target_currency": "KES",
+      "converted_price_numeric": 5366.52,
+      "converted_price_text": "KES 5366.52",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Chase Me (Paris Nights #2)",
+      "original_currency": "GBP",
+      "original_price_text": "£25.27",
+      "original_price_numeric": 25.27,
+      "target_currency": "KES",
+      "converted_price_numeric": 4443.38,
+      "converted_price_text": "KES 4443.38",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Black Dust",
+      "original_currency": "GBP",
+      "original_price_text": "£34.53",
+      "original_price_numeric": 34.53,
+      "target_currency": "KES",
+      "converted_price_numeric": 6071.62,
+      "converted_price_text": "KES 6071.62",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Birdsong: A Story in Pictures",
+      "original_currency": "GBP",
+      "original_price_text": "£54.64",
+      "original_price_numeric": 54.64,
+      "target_currency": "KES",
+      "converted_price_numeric": 9607.69,
+      "converted_price_text": "KES 9607.69",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+      "original_currency": "GBP",
+      "original_price_text": "£22.50",
+      "original_price_numeric": 22.5,
+      "target_currency": "KES",
+      "converted_price_numeric": 3956.32,
+      "converted_price_text": "KES 3956.32",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Aladdin and His Wonderful Lamp",
+      "original_currency": "GBP",
+      "original_price_text": "£53.13",
+      "original_price_numeric": 53.13,
+      "target_currency": "KES",
+      "converted_price_numeric": 9342.18,
+      "converted_price_text": "KES 9342.18",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+      "original_currency": "GBP",
+      "original_price_text": "£40.30",
+      "original_price_numeric": 40.3,
+      "target_currency": "KES",
+      "converted_price_numeric": 7086.2,
+      "converted_price_text": "KES 7086.20",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "Wall and Piece",
+      "original_currency": "GBP",
+      "original_price_text": "£44.18",
+      "original_price_numeric": 44.18,
+      "target_currency": "KES",
+      "converted_price_numeric": 7768.44,
+      "converted_price_text": "KES 7768.44",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Four Agreements: A Practical Guide to Personal Freedom",
+      "original_currency": "GBP",
+      "original_price_text": "£17.66",
+      "original_price_numeric": 17.66,
+      "target_currency": "KES",
+      "converted_price_numeric": 3105.27,
+      "converted_price_text": "KES 3105.27",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+      "original_currency": "GBP",
+      "original_price_text": "£31.05",
+      "original_price_numeric": 31.05,
+      "target_currency": "KES",
+      "converted_price_numeric": 5459.71,
+      "converted_price_text": "KES 5459.71",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Elephant Tree",
+      "original_currency": "GBP",
+      "original_price_text": "£23.82",
+      "original_price_numeric": 23.82,
+      "target_currency": "KES",
+      "converted_price_numeric": 4188.42,
+      "converted_price_text": "KES 4188.42",
+      "exchange_rate_used": 175.836227
+    },
+    {
+      "product_name": "The Bear and the Piano",
+      "original_currency": "GBP",
+      "original_price_text": "£36.89",
+      "original_price_numeric": 36.89,
+      "target_currency": "KES",
+      "converted_price_numeric": 6486.6,
+      "converted_price_text": "KES 6486.60",
+      "exchange_rate_used": 175.836227
+    }
+  ]
+}
