@@ -1,8 +1,8 @@
 {
   "scrape_info": {
-    "timestamp": "2026-05-08 20:08:51",
+    "timestamp": "2026-05-08 20:40:41",
     "conversion_timestamp": "Fri, 08 May 2026 00:02:31 +0000",
-    "total_products": 34,
+    "total_products": 30,
     "source_url": "http://books.toscrape.com",
     "exchange_rate_source": "ExchangeRate-API (open.er-api.com)"
   },
@@ -305,46 +305,6 @@
       "target_currency": "KES",
       "converted_price_numeric": 7768.44,
       "converted_price_text": "KES 7768.44",
-      "exchange_rate_used": 175.836227
-    },
-    {
-      "product_name": "The Four Agreements: A Practical Guide to Personal Freedom",
-      "original_currency": "GBP",
-      "original_price_text": "£17.66",
-      "original_price_numeric": 17.66,
-      "target_currency": "KES",
-      "converted_price_numeric": 3105.27,
-      "converted_price_text": "KES 3105.27",
-      "exchange_rate_used": 175.836227
-    },
-    {
-      "product_name": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
-      "original_currency": "GBP",
-      "original_price_text": "£31.05",
-      "original_price_numeric": 31.05,
-      "target_currency": "KES",
-      "converted_price_numeric": 5459.71,
-      "converted_price_text": "KES 5459.71",
-      "exchange_rate_used": 175.836227
-    },
-    {
-      "product_name": "The Elephant Tree",
-      "original_currency": "GBP",
-      "original_price_text": "£23.82",
-      "original_price_numeric": 23.82,
-      "target_currency": "KES",
-      "converted_price_numeric": 4188.42,
-      "converted_price_text": "KES 4188.42",
-      "exchange_rate_used": 175.836227
-    },
-    {
-      "product_name": "The Bear and the Piano",
-      "original_currency": "GBP",
-      "original_price_text": "£36.89",
-      "original_price_numeric": 36.89,
-      "target_currency": "KES",
-      "converted_price_numeric": 6486.6,
-      "converted_price_text": "KES 6486.60",
       "exchange_rate_used": 175.836227
     }
   ]

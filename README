@@ -1,0 +1,106 @@
+ Features
+Scrapes book titles & prices (GBP)
+
+Live currency conversion (KES, USD, EUR, etc.)
+
+Interactive menu for currency selection
+
+Exports to CSV, JSON, and PNG chart
+
+Error handling for network issues
+
+ Quick Start
+bash
+# 1. Create virtual environment
+python -m venv venv
+source venv/Scripts/activate  
+
+# 2. Install dependencies
+pip install requests beautifulsoup4 pandas matplotlib
+
+# 3. Run script
+python pricescraper.py
+ Screenshots
+ Currency Selection Menu
+ ![Currency Menu](screenshots/menu.png)
+
+
+
+ Results Table
+
+ ![Currency Menu](screenshots/results.png)
+
+ ![Currency Menu](screenshots/Screenshot.png)
+
+📁 Output Files
+File	Description
+product_prices.csv	Spreadsheet with converted prices
+product_prices.json	JSON format data
+price_comparison_chart.png	Bar chart visualization
+🛠 Tech Stack
+Python 3.7+
+
+Requests + BeautifulSoup (scraping)
+
+Pandas (tables)
+
+Matplotlib (charts)
+
+ExchangeRate-API (free, no key)
+
+📂 Project Structure
+text
+project/
+├── pricescraper.py          # Main script
+├── requirements.txt         # Dependencies
+├── README.md               # This file
+├── screenshots/            # Screenshot folder
+│   ├── 1-menu.png
+│   ├── 2-results.png
+│   └── 3-chart.png
+└── output/                 # Generated files
+    ├── product_prices.csv
+    ├── product_prices.json
+    └── price_comparison_chart.png
+🔧 Troubleshooting
+Issue	Fix
+ModuleNotFoundError	Run pip install -r requirements.txt
+AttributeError: 'run'	Check method indentation in class
+Connection error	Check internet connection
+📝 requirements.txt
+txt
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+🎯 Usage Example
+python
+from pricescraper import PriceScraperCurrencyConverter
+
+scraper = PriceScraperCurrencyConverter()
+scraper.run(target_currency="KES", num_products=10)
+📸 Taking Screenshots
+Create screenshots folder:
+
+bash
+mkdir screenshots
+Run script and capture:
+
+Menu screen: When currency options appear → save as screenshots/1-menu.png
+
+Results table: After scraping completes → save as screenshots/2-results.png
+
+Chart: When matplotlib window opens → save as screenshots/3-chart.png
+
+✅ Run Commands
+bash
+# Setup
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+
+# Run
+python pricescraper.py
+
+# Deactivate
+deactivate
