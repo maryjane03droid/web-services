@@ -159,7 +159,7 @@ class PriceScraperCurrencyConverter:
         print("="*100)
         
         if 'original_price_numeric' in df.columns and 'converted_price_numeric' in df.columns:
-            print(f"\n📊 SUMMARY STATISTICS:")
+            print(f"\nSUMMARY STATISTICS:")
             print(f"  • Total Products Scraped: {len(df)}")
             print(f"  • Original Price Range: {df['original_price_numeric'].min():.2f} - {df['original_price_numeric'].max():.2f} GBP")
             print(f"  • Converted Price Range: {df['converted_price_numeric'].min():.2f} - {df['converted_price_numeric'].max():.2f} {df['target_currency'].iloc[0]}")
@@ -237,7 +237,7 @@ class PriceScraperCurrencyConverter:
         bars2 = ax.bar([i + width/2 for i in x], converted_prices, width,
                        label=f'Converted ({target_currency})', color='lightcoral', alpha=0.8)
         
-        ax.set_title(f'📊 Product Price Comparison: GBP vs {target_currency}\n'
+        ax.set_title(f' Product Price Comparison: GBP vs {target_currency}\n'
                     f'Exchange Rate: 1 GBP = {exchange_rate:.4f} {target_currency}',
                     fontsize=14, fontweight='bold', pad=20)
         ax.set_xlabel('Product Name', fontsize=11, fontweight='bold')
@@ -285,13 +285,13 @@ class PriceScraperCurrencyConverter:
         self.plot_prices()
         
         print("\n" + "="*70)
-        print(" " * 20 + "✅ PROCESS COMPLETED SUCCESSFULLY ✅")
+        print(" " * 20 + "PROCESS COMPLETED SUCCESSFULLY ")
         print("="*70)
         print("Generated files:")
-        print("  📄 product_prices.csv - Spreadsheet with all data")
-        print("  📄 product_prices.json - JSON format data")
-        print("  📄 conversion_metadata.json - Conversion information")
-        print("  📊 price_comparison_chart.png - Visualization chart")
+        print("   product_prices.csv - Spreadsheet with all data")
+        print("   product_prices.json - JSON format data")
+        print("   conversion_metadata.json - Conversion information")
+        print("   price_comparison_chart.png - Visualization chart")
         print("="*70)
         
         return True
@@ -301,7 +301,7 @@ def interactive_run():
     scraper = PriceScraperCurrencyConverter()
     
     print("\n" + "="*70)
-    print(" " * 15 + "🎮 INTERACTIVE PRICE SCRAPER & CURRENCY CONVERTER 🎮")
+    print(" " * 15 + " INTERACTIVE PRICE SCRAPER & CURRENCY CONVERTER ")
     print("="*70)
     
     if not scraper.get_exchange_rates("GBP"):
@@ -316,7 +316,7 @@ def interactive_run():
         if currency in scraper.exchange_rates and currency not in available_currencies:
             available_currencies.append(currency)
     
-    print("\n📋 Available Currencies for Conversion:")
+    print("\nAvailable Currencies for Conversion:")
     print("─" * 50)
     for i, currency in enumerate(available_currencies, 1):
         rate = scraper.exchange_rates[currency]
@@ -329,7 +329,7 @@ def interactive_run():
     print("─" * 50)
     
     while True:
-        user_input = input(f"\n💱 Select target currency (1-{len(available_currencies)}) or enter currency code: ").strip().upper()
+        user_input = input(f"\n Select target currency (1-{len(available_currencies)}) or enter currency code: ").strip().upper()
         
         if user_input.isdigit() and 1 <= int(user_input) <= len(available_currencies):
             target_currency = available_currencies[int(user_input) - 1]
@@ -338,25 +338,25 @@ def interactive_run():
             target_currency = user_input
             break
         else:
-            print(f"❌ Invalid choice. Please select from {available_currencies}")
+            print(f"Invalid choice. Please select from {available_currencies}")
     
     while True:
         try:
-            user_input = input("\n📚 Number of products to scrape (max 50, default 10): ").strip()
+            user_input = input("\n Number of products to scrape (max 50, default 10): ").strip()
             if user_input == "":
                 num_products = 10
             else:
                 num_products = int(user_input)
                 num_products = min(num_products, 50)
                 if num_products <= 0:
-                    print("❌ Please enter a positive number.")
+                    print(" Please enter a positive number.")
                     continue
             break
         except ValueError:
-            print("❌ Please enter a valid number.")
+            print(" Please enter a valid number.")
     
-    print(f"\n✅ Ready to scrape {num_products} books and convert from GBP to {target_currency}")
-    confirm = input("\n🚀 Start scraping? (Y/n): ").strip().lower()
+    print(f"\n Ready to scrape {num_products} books and convert from GBP to {target_currency}")
+    confirm = input("\nStart scraping? (Y/n): ").strip().lower()
     
     if confirm == 'n' or confirm == 'no':
         print("Scraping cancelled.")
